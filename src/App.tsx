@@ -17,7 +17,7 @@ function App() {
     // try... catch documentation:
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
     try {
-      const res = await fetch(`https://academy-bomojowo-digipet.netlify.app${endpoint}`);
+      const res = await fetch(`https://warm-stream-25639.herokuapp.com${endpoint}`);
       const body = await res.json();
       setMessage(body.message);
       setDigipetStats(body.digipet);
